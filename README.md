@@ -12,7 +12,7 @@ npm install --save monk-middleware-dereference
 Let's imagine that the `todos` reference a user _id in their `author` field:
 
 ```js
-db.addMiddleware(require('monk-middleware-dereference'))
+db.addMiddleware(require('monk-middleware-dereference')())
 
 const todos = db.get('todos', {
 	refMapping: {
