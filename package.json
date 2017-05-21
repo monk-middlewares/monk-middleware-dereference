@@ -1,0 +1,26 @@
+{
+  "name": "monk-middleware-dereference",
+  "version": "0.1.0",
+  "description": "A monk middleware to handle dereferencing",
+  "keywords": [],
+  "main": "build/index.js",
+  "jsnext:main": "src/index.js",
+  "files": [
+    "build",
+    "src"
+  ],
+  "devDependencies": {
+    "@mathieudutour/js-fatigue": "^1.0.2",
+		"monk": ">=5.0.1"
+  },
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make clean build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monk-middlewares/monk-middleware-dereference.git"
+  },
+  "author": "Mathieu Dutour",
+  "license": "MIT"
+}
